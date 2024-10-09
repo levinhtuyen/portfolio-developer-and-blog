@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  .bg-primary-500 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(59 166 118 / var(--tw-bg-opacity)) /* #3ba676 */;
+  }
+}
+@layer base {
+}
+@layer components {
+}
+@layer utilities {
+}

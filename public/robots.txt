@@ -1,0 +1,233 @@
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: Facebot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: coccocbot-web
+Allow: /
+
+User-agent: coccocbot
+Allow: /
+
+User-agent: Baiduspider
+User-agent: Baiduspider-video
+User-agent: Baiduspider-image
+Allow: /
+
+User-agent: SemrushBot
+Allow: /
+
+User-agent: SemrushBot-SA
+Allow: /
+
+User-agent: sistrix
+Allow: /
+
+User-agent: SISTRIX Crawler
+Allow: /
+
+User-agent: SISTRIX
+Allow: /
+
+User-agent: SEOkicks-Robot
+Allow: /
+
+User-agent: jobs.de-Robot
+Allow: /
+
+User-agent: Nutch
+Allow: /
+
+User-agent: AhrefsBot
+Allow: /
+
+User-agent: AhrefsBot/5.1
+Allow:
+
+user-agent: UnisterBot
+Allow: /
+
+User-agent: dotbot
+Allow: /
+
+User-agent: SearchmetricsBot
+Allow: /
+
+User-agent: MJ12bot
+Allow: /
+
+User-agent: SurveyBot
+Allow: /
+
+user-agent: SEOdiver
+Allow: /
+
+User-agent: spbot
+Allow: /
+
+User-agent: wotbox
+Allow: /
+
+User-agent: dotbot
+Allow: /
+
+User-agent: meanpathbot
+Allow: /
+
+User-agent: BacklinkCrawler
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+User-agent: YandexMedia
+Allow: /
+
+User-agent: YandexImages
+Allow: /
+
+User-agent: magpie-crawler
+Allow: /
+
+User-agent: oBot
+Allow: /
+
+User-agent: Ezooms Robot
+Allow: /
+
+User-agent: Sogou Spider
+Allow: /
+
+User-agent: fr-crawler
+Allow: /
+
+User-agent: BLEXBot
+Allow: /
+
+User-agent: BLEXBot/1.0
+Allow: /
+
+User-agent: MegaIndex.ru/2.0
+Allow: /
+
+User-agent: MegaIndex.ru
+Allow: /
+
+User-Agent: CloudServerMarketSpider
+Allow: /
+
+User-Agent: trendictionbot
+Allow: /
+
+User-agent: Exabot
+Allow: /
+
+User-agent: careerbot
+Allow: /
+
+User-agent: Lipperhey-Kaus-Australis
+Allow: /
+
+User-agent: seoscanners.net
+Allow: /
+
+User-agent: MetaJobBot
+Allow: /
+
+User-agent: Spiderbot
+Allow: /
+
+User-agent: LinkStats
+Allow: /
+
+User-agent: JobboerseBot
+Allow: /
+
+User-agent: ICCrawler
+Allow: /
+
+User-agent: Plista
+Allow: /
+
+User-agent: Domain Re-Animator Bot
+Allow: /
+
+User-agent: Lipperhey-Kaus-Australis
+Allow: /
+
+User-agent: turnitinbot
+Allow: /
+
+User-agent: um-IC
+Allow: /
+
+User-agent: mindUpBot
+Allow: /
+
+User-agent: sg-Orbiter
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Qwantify
+Allow: /
+
+User-agent: Kraken
+Allow: /
+
+User-agent: plukkie
+Allow: /
+
+User-agent: SafeDNSBot
+Allow: /
+
+User-agent: 360Spider
+Allow: /
+
+User-agent: HaosouSpider
+Allow: /
+
+User-agent: rogerbot
+Allow: /
+
+User-agent: OpenHoseBot
+Allow: /
+
+User-agent: Screaming Frog SEO Spider
+Allow: /
+
+User-agent: ThumbSniper
+Allow: /
+
+User-agent: R6_CommentReader
+Allow: /
+
+User-agent: ImplisenseBot
+Allow: /
+
+User-agent: Cliqzbot
+Allow: /
+
+User-agent: aiHitBot
+Allow: /
+
+User-Agent: trendictionbot
+Allow: /
+
+User-agent: WBSearchBot
+Allow: /
+
+User-agent: *
+Allow: /*.js$
+Allow: /*.css$
+
+
+sitemap:https://tuyenleblog.tech/sitemap.xml
