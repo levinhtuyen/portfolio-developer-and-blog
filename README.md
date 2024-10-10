@@ -7,12 +7,12 @@
 
 ## Preview
 
-<img src="public/imageseo.png" alt="Preview" title="Desktop Preview">
+<img src="public/logo.png" alt="Preview" title="Desktop Preview">
 
 
 ## Performance
 
-<img src="public/images/perfomance.png" alt="Preview" title="Desktop Preview">
+<img src="public/imageseo.png" alt="Preview" title="Desktop Preview">
 <img src="public/mobileimageseo.png" alt="Preview" title="Mobile Preview">
 
 ## Features

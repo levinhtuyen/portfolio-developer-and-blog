@@ -9,6 +9,6 @@ export default defineEventHandler((event) => {
     'X-Content-Type-Options': 'nosniff',
     'X-Frame-Options': 'ALLOWALL',
     'Cache-Control': 'no-cache',
-    'Accept-Encoding': 'gzip, compress, br;q=1.0, *;q=0.5',
+    'Accept-Encoding': 'gzip, compress, br',
   })
 })

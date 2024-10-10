@@ -119,7 +119,7 @@ watch(route.name, () => {
                         : ''
                     "
                   >
-                    <slot> Chuyện của tôi</slot>
+                    <slot> My story</slot>
                   </NuxtLink>
                 </li>
                 <li class="ml-8">
@@ -202,7 +202,7 @@ watch(route.name, () => {
               alt="Lê Vĩnh Tuyến - Blog's của tôi"
               name="Lê Vĩnh Tuyến - Blog's của tôi"
               class="block py-3 text-sm"
-              >Chuyện của tôi 2</a
+              >My story</a
             >
           </li>
           <li class="border-t border-t-gray-100 dark:border-t-slate-800">

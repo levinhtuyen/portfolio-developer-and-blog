@@ -12,7 +12,7 @@
   "schema2": {
     "@context": "http://schema.org",
     "@type": "Organization",
-    "@id": "kg:/g/11vcl7mn3f",
+    "@id": "",
     "url": "https://tuyenleblog.tech/",
     "mainentityofpage": "https://www.google.com/search?q=levinhtuyen&kponly=&kgmid=/g/11vcl7mn3f",
     "alternatename": [
@@ -28,7 +28,7 @@
       "tuyen portfolio",
       "tuyenle portfolio"
     ],
-    "actionableFeedbackPolicy": "https://tuyenleblog.tech/dieu-khoan-su-dung",
+    "actionableFeedbackPolicy": "",
     "award": "Lê Vĩnh Tuyến - Blog's của tôi",
     "disambiguatingdescription": "Lê Vĩnh Tuyến - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...",
     "slogan": "Lê Vĩnh Tuyến - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...",
@@ -42,14 +42,14 @@
     "foundingLocation": {
       "@type": "place",
       "name": "Hồ Chí Minh",
-      "url": "https://www.wikidata.org/wiki/Q1854",
-      "address": "122/7/2 đường số 11, phường Trường Thọ, Thành phố Thủ Đức"
+      "url": "",
+      "address": ""
     },
     "additionaltype": [
       "https://en.wikipedia.org/wiki/Real_estate",
       "https://en.wikipedia.org/wiki/Boarding_house"
     ],
-    "logo": "https://tuyenleblog.tech/imageseo.png",
+    "logo": "https://tuyenleblog.tech/logo.png",
     "email": "tuyenleblog@gmail.com",
     "address": {
       "@type": "PostalAddress",
@@ -57,7 +57,7 @@
       "addressCountry": "Việt Nam",
       "addressRegion": "Hồ Chí Minh",
       "postalCode": "72100",
-      "streetAddress": "122/7/2 đường số 11, phường Trường Thọ, Thành phố Thủ Đức"
+      "streetAddress": ""
     },
     "description": "Lê Vĩnh Tuyến - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...",
     "name": "levinhtuyen",
@@ -66,7 +66,7 @@
       "@type": "SubscribeAction",
       "target": {
         "@type": "EntryPoint",
-        "urlTemplate": "https://tuyenleblog.tech/about",
+        "urlTemplate": "https://tuyenleblog.tech",
         "inLanguage": "vn",
         "actionPlatform": [
           "http://schema.org/DesktopWebPlatform",

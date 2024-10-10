@@ -10,7 +10,7 @@ export const useMetaSeoIndex = () => {
     ogTitle: "Lê Vĩnh Tuyến - Blog's của tôi",
     ogDescription:
       "Lê Vĩnh Tuyến - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...",
-    ogImage: 'https://tuyenleblog.tech/imageseo.png',
+    ogImage: 'https://tuyenleblog.tech/logo.png',
     ogType: 'article',
     ogLink: 'https://tuyenleblog.tech/',
     robots: 'index, follow',

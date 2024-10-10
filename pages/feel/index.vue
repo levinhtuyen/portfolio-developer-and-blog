@@ -27,7 +27,7 @@ useHead({
     },
     {
       property: 'og:image',
-      content: 'https://tuyenleblog.tech/imageseo.png',
+      content: 'https://tuyenleblog.tech/logo.png',
     },
     {
       name: 'robots',
@@ -62,7 +62,7 @@ const query: QueryBuilderParams = { path: '/feel' }
 <template>
   <LayoutPageWrapper>
     <LayoutPageHeader>
-      <LayoutPageTitle text="Chuyện của tôi" class="capitalize" />
+      <LayoutPageTitle text="My story" class="capitalize" />
     </LayoutPageHeader>
     <LayoutPageSection>
       <ContentList path="/feel">
@@ -73,7 +73,7 @@ const query: QueryBuilderParams = { path: '/feel' }
                 <AwesomeLink
                   :to="feel._path"
                   class="uppercase text-slate-500 text-[10px] hover:text-sky-600 dark:hover:text-sky-500"
-                  >Chuyện của tôi</AwesomeLink
+                  >My story</AwesomeLink
                 >
               </div>
               <AwesomeLink
