@@ -3,11 +3,11 @@
 import { reactive, computed } from 'vue'
 export const useMetaSeoIndex = () => {
   const siteData = reactive({
-    title: "Lê Vĩnh Tuyến - Blog's của tôi",
+    title: 'Lê Vĩnh Tuyến - Portfolio developer',
     description:
       "Lê Vĩnh Tuyến - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...",
     content: "Lê Vĩnh Tuyến - Blog's của tôi",
-    ogTitle: "Lê Vĩnh Tuyến - Blog's của tôi",
+    ogTitle: 'Lê Vĩnh Tuyến - Portfolio developer',
     ogDescription:
       "Lê Vĩnh Tuyến - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...",
     ogImage: 'https://tuyenleblog.tech/logo.png',
@@ -48,7 +48,7 @@ export const useMetaSeoIndex = () => {
 
       {
         property: 'og:image',
-        content: 'https://tuyenleblog.tech/imageseo.png',
+        content: 'https://tuyenleblog.tech/logo.png',
       },
       {
         name: 'robots',

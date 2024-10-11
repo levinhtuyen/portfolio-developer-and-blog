@@ -4,7 +4,7 @@ import { ref } from 'vue'
 const { current } = useAwesomeScreen()
 
 const phrases = [`I'm Lê Vĩnh Tuyến`, `I learn, I develop...`]
-
+const router = useRouter()
 const currentPhraseIndex = ref(0)
 const currentCharacterIndex = ref(0)
 const currentPhrase = ref<string>(`I'm Lê Vĩnh Tuyến`)
@@ -35,7 +35,7 @@ function loop() {
   }
 
   const spedUp = Math.random() * (80 - 50) + 150
-  const normalSpeed = Math.random() * (300 - 200) + 110
+  const normalSpeed = Math.random() * (300 - 250) + 50
   const time = isDeleting.value ? spedUp : normalSpeed
   setTimeout(loop, time)
 }
@@ -43,6 +43,16 @@ setTimeout(() => {
   currentPhrase.value = ''
   loop()
 }, 3000)
+const redirectUrl = (url: string, isOutApp: boolean) => {
+  if (!url) {
+    return
+  }
+  if (!isOutApp) {
+    router.push({ path: url })
+  } else {
+    window.open(url)
+  }
+}
 </script>
 
 <template>
@@ -91,10 +101,12 @@ setTimeout(() => {
                 >
                   <!-- Front-End -->
                   <div>
-                    <span>A </span>
-                    <strong class="font-bold text-slate-700 dark:text-slate-300"
-                      >Front-End Developer</strong
-                    >
+                    <p>
+                      A
+                      <strong class="text-slate-700 dark:text-slate-300"
+                        >Front-End Developer</strong
+                      >
+                    </p>
                     <p
                       class="text-base md:text-lg font-normal text-gray-700 dark:text-white"
                     >
@@ -638,10 +650,7 @@ setTimeout(() => {
             <div
               class="pointer-events-none absolute -top-36 right-0 z-0 hidden select-none lg:block"
             >
-              <div
-                v-if="current === 'lg' || current === 'xl'"
-                class="relative h-[590px] w-[603px]"
-              >
+              <div class="relative h-[590px] w-[603px]">
                 <div
                   class="from-accent-400/20 via-accent-400/0 absolute top-20 right-0 h-[520px] w-[416px] rounded-full bg-gradient-to-t dark:from-accent-600/10 dark:via-accent-600/0"
                 >
@@ -1204,32 +1213,36 @@ setTimeout(() => {
                   width="372"
                   height="211"
                   loading="lazy"
-                  class="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
+                  class="lg:h-48 cursor-pointer md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
                   src="/images/project-1.webp"
                   alt="blog"
+                  @click="redirectUrl('https://downtik.app', true)"
                 />
                 <div class="p-6">
                   <h2
                     class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
                   >
-                    Web App
+                    Web Tool
                   </h2>
                   <h1
                     class="title-font text-lg font-medium text-gray-600 mb-3 line-clamp-1"
                   >
-                    Web Tool
+                    Tiktok Video Download
                   </h1>
                   <p class="leading-relaxed mb-3 line-clamp-3">
-                    span amet consectetur adipisicing elit. Tempora expedita
-                    dicta totam aspernatur doloremque. Excepturi iste iusto eos
-                    enim reprehenderit nisi, accusamus delectus nihil quis
-                    facere in modi ratione libero!
+                    MusicallyDown, a widely-used online tool, enables you to
+                    easily download TikTok videos without any watermarks.
+                    Recognized as one of the top TikTok video downloaders, it
+                    allows you to save your favorite videos in high-quality MP4
+                    format with HD resolution, ensuring a premium viewing
+                    experience.
                   </p>
                   <div class="flex items-center flex-wrap">
                     <button
-                      class="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md shadow-cla-blue px-4 py-1 rounded-lg"
+                      class="bg-gradient-to-r from-cyan-400 text-white to-blue-400 hover:scale-105 drop-shadow-md shadow-cla-blue px-4 py-1 rounded-lg"
+                      @click="redirectUrl('https://downtik.app', true)"
                     >
-                      Learn more
+                      learn more
                     </button>
                   </div>
                 </div>
@@ -1243,32 +1256,32 @@ setTimeout(() => {
                   loading="lazy"
                   width="372"
                   height="211"
-                  class="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
+                  class="lg:h-48 cursor-pointer md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
                   src="/images/project-2.webp"
                   alt="blog"
+                  @click="redirectUrl('https://go2joy.vn', true)"
                 />
                 <div class="p-6">
                   <h2
                     class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
                   >
-                    WebAdmin
+                    Website
                   </h2>
                   <h1
                     class="title-font text-lg font-medium text-gray-600 mb-3 line-clamp-1"
                   >
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Go2Joy - Hourly booking platform
                   </h1>
                   <p class="leading-relaxed mb-3 line-clamp-3">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Tempora expedita dicta totam aspernatur doloremque.
-                    Excepturi iste iusto eos enim reprehenderit nisi, accusamus
-                    delectus nihil quis facere in modi ratione libero!
+                    Flexible and simple hotel booking with Go2Joy. More than
+                    10,000 good-priced hotels are waiting for you to discover.
                   </p>
                   <div class="flex items-center flex-wrap">
                     <button
-                      class="bg-gradient-to-r from-orange-300 to-amber-400 hover:scale-105 drop-shadow-md shadow-cla-violate px-4 py-1 rounded-lg"
+                      class="bg-gradient-to-r from-orange-300 to-amber-400 text-white hover:scale-105 drop-shadow-md shadow-cla-violate px-4 py-1 rounded-lg"
+                      @click="redirectUrl('https://go2joy.vn', true)"
                     >
-                      Learn more
+                      learn more
                     </button>
                   </div>
                 </div>
@@ -1282,9 +1295,10 @@ setTimeout(() => {
                   loading="lazy"
                   width="372"
                   height="211"
-                  class="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
+                  class="lg:h-48 cursor-pointer md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
                   src="/images/project-3.webp"
                   alt="blog"
+                  @click="redirectUrl('/project/my-portfolio-and-blog', false)"
                 />
                 <div class="p-6">
                   <h2
@@ -1303,9 +1317,12 @@ setTimeout(() => {
                   </p>
                   <div class="flex items-center flex-wrap">
                     <button
-                      class="bg-gradient-to-r from-fuchsia-300 to-pink-400 hover:scale-105 shadow-cla-blue px-4 py-1 rounded-lg"
+                      class="bg-gradient-to-r from-fuchsia-300 to-pink-400 text-white hover:scale-105 shadow-cla-blue px-4 py-1 rounded-lg"
+                      @click="
+                        redirectUrl('/project/my-portfolio-and-blog', false)
+                      "
                     >
-                      see more
+                      learn more
                     </button>
                   </div>
                 </div>

@@ -126,7 +126,7 @@ export default defineNuxtConfig({
     },
   },
   gtag: {
-    id: '',
+    id: 'G-J9F2P3LH80',
   },
   vite: {
     css: {

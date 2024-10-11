@@ -12,7 +12,7 @@
   "schema2": {
     "@context": "http://schema.org",
     "@type": "Organization",
-    "@id": "",
+    "@id": "kg:/g/11vcl7mn3f",
     "url": "https://tuyenleblog.tech/",
     "mainentityofpage": "https://www.google.com/search?q=levinhtuyen&kponly=&kgmid=/g/11vcl7mn3f",
     "alternatename": [

@@ -8,7 +8,7 @@ export default defineEventHandler((event) => {
     'Access-Control-Allow-Private-Network': 'false',
     'X-Content-Type-Options': 'nosniff',
     'X-Frame-Options': 'ALLOWALL',
-    'Cache-Control': 'no-cache',
+    'Cache-Control': 'max-age=0, must-revalidate',
     'Accept-Encoding': 'gzip, compress, br',
   })
 })
