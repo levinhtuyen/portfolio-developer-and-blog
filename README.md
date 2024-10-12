@@ -1,7 +1,7 @@
-# Structure Nuxt 3 Awesome Starter
+# The Developer Portfolio and Blog start
 
 - ✨&nbsp; [Link demo](https://tuyenleblog.tech/)
-- 👀&nbsp; [Create avatar 3D](https://avaturn.me/)
+- 📦&nbsp; [Create avatar 3D](https://avaturn.me/)
 - 👀&nbsp; [Source](https://github.com/levinhtuyen/portfolio-developer-and-blog)
 - 📚&nbsp; [Structure: Use Nuxt 3 Awesome Starter V2](https://githubblitz.com/viandwi24/nuxt3-awesome-starter)
 
@@ -28,6 +28,9 @@
   - [x] Primary Colors
   - [x] Font
 - [x] SEO Optimization, High Performance
+- [x] Blog
+- [x] My story
+- [x] use data from .md (app/content/...)
 
 ## Getting Started
 
