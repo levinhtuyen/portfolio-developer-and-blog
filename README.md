@@ -1,14 +1,13 @@
-
-
 # Structure Nuxt 3 Awesome Starter
 
-- 👀&nbsp; [Structure: Use Nuxt 3 Awesome Starter V2](https://githubblitz.com/viandwi24/nuxt3-awesome-starter)  
-  
+- 👀&nbsp; [Structure: Use Nuxt 3 Awesome Starter V2](https://githubblitz.com/viandwi24/nuxt3-awesome-starter)
+- 👀&nbsp; [Link demo](https://tuyenleblog.tech/)
+- 👀&nbsp; [Create avatar 3D](https://avaturn.me/)
+- 👀&nbsp; [Source](https://github.com/levinhtuyen/portfolio-developer-and-blog)
 
 ## Preview
 
 <img src="public/logo.png" alt="Preview" title="Desktop Preview">
-
 
 ## Performance
 
@@ -17,17 +16,17 @@
 
 ## Features
 
-- [X] 📚 [Nuxt Layer Support](https://nuxt.com/docs/getting-started/layers#layers)
-- [X] 💨 [Tailwind CSS v3](https://tailwindcss.com/)
-- [X] ✨ [Headless UI](https://headlessui.dev/)
-- [X] 🔔 [Nuxt Icon](https://icones.js.org/)
-- [X] 🛹 [State & Store Management (Pinia)](https://pinia.vuejs.org/)
-- [X] 📦 [Vue Composition Collection (Vueuse)](https://vueuse.org/)
-- [X] 🪝 Built-in Awesome Component & Layout
-- [X] 🌙 [Theme Manager (Color Mode)](https://color-mode.nuxtjs.org/)
-- [X] Configurable Theme (Easy to change)
-  - [X] Primary Colors
-  - [X] Font
+- [x] 📚 [Nuxt Layer Support](https://nuxt.com/docs/getting-started/layers#layers)
+- [x] 💨 [Tailwind CSS v3](https://tailwindcss.com/)
+- [x] ✨ [Headless UI](https://headlessui.dev/)
+- [x] 🔔 [Nuxt Icon](https://icones.js.org/)
+- [x] 🛹 [State & Store Management (Pinia)](https://pinia.vuejs.org/)
+- [x] 📦 [Vue Composition Collection (Vueuse)](https://vueuse.org/)
+- [x] 🪝 Built-in Awesome Component & Layout
+- [x] 🌙 [Theme Manager (Color Mode)](https://color-mode.nuxtjs.org/)
+- [x] Configurable Theme (Easy to change)
+  - [x] Primary Colors
+  - [x] Font
 
 ## Getting Started
 

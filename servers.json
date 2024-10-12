@@ -1,0 +1,7 @@
+[
+  {
+    "name": "tuyenleblog",
+    "script": "app/.output/server/index.mjs",
+    "instances": "1"
+  }
+]

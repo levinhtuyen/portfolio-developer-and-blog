@@ -32,6 +32,8 @@
     "dev": "nuxt dev ./app --no-clear",
     "generate": "nuxt generate ./app",
     "preview": "nuxt preview ./app",
+    "clear": "npx nuxi cleanup",
+    "start": "node app/.output/server/index.mjs",
     "postinstall": "nuxt prepare ./app",
     "dev:starter": "nuxt dev ./examples/starter",
     "lint": "eslint --ext \".ts,.js,.vue\" --ignore-path .eslintignore .",
