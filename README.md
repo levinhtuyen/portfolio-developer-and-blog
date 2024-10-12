@@ -1,9 +1,9 @@
 # Structure Nuxt 3 Awesome Starter
 
-- 👀&nbsp; [Structure: Use Nuxt 3 Awesome Starter V2](https://githubblitz.com/viandwi24/nuxt3-awesome-starter)
-- 👀&nbsp; [Link demo](https://tuyenleblog.tech/)
+- ✨&nbsp; [Link demo](https://tuyenleblog.tech/)
 - 👀&nbsp; [Create avatar 3D](https://avaturn.me/)
 - 👀&nbsp; [Source](https://github.com/levinhtuyen/portfolio-developer-and-blog)
+- 📚&nbsp; [Structure: Use Nuxt 3 Awesome Starter V2](https://githubblitz.com/viandwi24/nuxt3-awesome-starter)
 
 ## Preview
 
@@ -27,6 +27,7 @@
 - [x] Configurable Theme (Easy to change)
   - [x] Primary Colors
   - [x] Font
+- [x] SEO Optimization, High Performance
 
 ## Getting Started
 
@@ -34,7 +35,7 @@
 
 - clone this repository
   ```bash
-  git clone https://github.com/levinhtuyen/myblog
+  git clone https://github.com/levinhtuyen/portfolio-developer-and-blog
   ```
 - install dependencies
   ```bash
