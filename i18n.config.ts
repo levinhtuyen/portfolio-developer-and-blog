@@ -1,18 +1,22 @@
 export default defineI18nConfig(() => ({
   legacy: false,
-  locale: 'en',
+  locale: 'vi',
   messages: {
     en: {
-      langauge: 'Language'
+      langauge: 'Language',
+      myStory: 'My story',
     },
     vi: {
-      langauge: 'Ngôn ngữ'
+      langauge: 'Ngôn ngữ',
+      myStory: 'Chuyện của tôi',
     },
     in: {
-      langauge: 'Language'
+      langauge: 'Language',
+      myStory: 'My story',
     },
     fr: {
-      langauge: 'Language'
-    }
-  }
+      langauge: 'Language',
+      myStory: 'My story',
+    },
+  },
 }))

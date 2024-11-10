@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed bottom-10 right-10 bg-white rounded-full">
+  <div class="fixed bottom-12 right-10 bg-white rounded-full">
     <button id="topButton" @click="scrolltoTop">
       <img width="50" height="50" src="/images/toTop.png" alt="" />
     </button>

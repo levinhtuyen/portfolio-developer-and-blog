@@ -1,6 +1,9 @@
 <script lang="ts" setup>
+import { useI18n } from 'vue-i18n'
+
 const { awesome } = useAppConfig()
 const $screen = useAwesomeScreen()
+
 const nuxtApp = useNuxtApp()
 const route = useRoute()
 const titlesText = computed<string[]>(() =>
@@ -9,6 +12,8 @@ const titlesText = computed<string[]>(() =>
     .split(' ')
     .map((item: any) => item.replaceAll('[space]', ' ')),
 )
+const { t, locale } = useI18n()
+console.log('locale.value :>> ', locale.value)
 const leadingsText = computed(() => [
   {
     text: titlesText.value[0],
@@ -103,7 +108,7 @@ watch(route.name, () => {
               </div></NuxtLink
             >
           </div>
-          <div class="menu-col ml-auto flex items-center">
+          <div class="menu-col ml-auto flex items-center gap-4 md:gap-0">
             <div class="desk-menu hidden md:block items-center">
               <ul class="flex items-center">
                 <li class="ml-8">
@@ -119,7 +124,7 @@ watch(route.name, () => {
                         : ''
                     "
                   >
-                    <slot> My story</slot>
+                    <slot> {{ $t('myStory') }}</slot>
                   </NuxtLink>
                 </li>
                 <li class="ml-8">
@@ -141,9 +146,13 @@ watch(route.name, () => {
               </ul>
             </div>
             <div
-              class="hidden md:block h-6 border-l border-gray-300 ml-6 mr-4 dark:border-slate-700/80"
+              class="hidden md:block h-6 border-l border-gray-300 ml-4 mr-4  dark:border-slate-700/80"
             ></div>
-            <LayoutPageNavbarDropdownThemeSwitcher />
+            <LayoutPageNavbarDropdownModeThemeSwitcher />
+            <div
+              class="hidden md:block h-6 border-l border-gray-300 ml-4 mr-4 dark:border-slate-700/80"
+            ></div>
+            <LayoutPageNavbarDropdownLangThemeSwitcher />
             <div class="block md:hidden">
               <div
                 v-if="!isOpen"

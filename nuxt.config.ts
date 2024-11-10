@@ -64,7 +64,7 @@ export default defineNuxtConfig({
     '@nuxtjs/web-vitals',
     '@nuxt/image',
     // todo: feat/localization
-    // '@nuxtjs/i18n'
+    '@nuxtjs/i18n',
   ],
   image: {
     // The screen sizes predefined by `@nuxt/image`:
@@ -78,6 +78,9 @@ export default defineNuxtConfig({
       '2xl': 1536,
     },
     format: ['webp'],
+  },
+  i18n: {
+    vueI18n: './i18n.config.ts', // if you are using custom path, default
   },
   css: [
     resolve('./assets/scss/_variables.scss'),
@@ -128,6 +131,7 @@ export default defineNuxtConfig({
   gtag: {
     id: 'G-J9F2P3LH80',
   },
+
   vite: {
     css: {
       preprocessorOptions: {

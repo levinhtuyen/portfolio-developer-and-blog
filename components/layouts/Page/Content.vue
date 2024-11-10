@@ -1,7 +1,7 @@
 <template>
   <div
     class="max-w-6xl m-auto pt-[24px] lg:pt-[64px]"
-    :style="{ 'min-height': 'var(--layout-page-content-min-height)' }"
+    :style="{ 'min-height': 'calc(100vh - 120px)' }"
   >
     <slot />
   </div>
