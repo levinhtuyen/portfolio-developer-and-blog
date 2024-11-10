@@ -1,12 +1,7 @@
 <template>
-  <div class="fixed bottom-10 right-10">
+  <div class="fixed bottom-10 right-10 bg-white rounded-full">
     <button id="topButton" @click="scrolltoTop">
-      <img
-        width="50"
-        height="50"
-        src="https://cdn3.iconfinder.com/data/icons/fluent-solid-24px-vol-1/24/ic_fluent_arrow_circle_up_24_filled-512.png"
-        alt=""
-      />
+      <img width="50" height="50" src="/images/toTop.png" alt="" />
     </button>
   </div>
 </template>
