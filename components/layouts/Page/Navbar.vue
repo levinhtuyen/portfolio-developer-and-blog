@@ -207,7 +207,7 @@ watch(route.name, () => {
           </li>
           <li class="border-t border-t-gray-100 dark:border-t-slate-800">
             <a
-              href="/blog"
+              href="/post"
               alt="Lê Vĩnh Tuyến - Blog's của tôi"
               name="Lê Vĩnh Tuyến - Blog's của tôi"
               class="block py-3 text-sm"

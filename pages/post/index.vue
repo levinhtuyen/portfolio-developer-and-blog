@@ -67,14 +67,14 @@ useHead({
     <LayoutPageSection>
       <ContentList path="/post">
         <template #default="{ list }">
-          <div class="min-h-[calc(100vh+1rem)]">
+          <div class="min-h-[calc(100vh+1rem)] ">
             <div
               class="grid gap-8 sm:grid-cols-2 sm:gap-12 lg:grid-cols-2 xl:grid-cols-2 xl:gap-16"
             >
               <article
                 v-for="article in list"
                 :key="article._path"
-                class="flex flex-col items-center gap-4 md:flex-row lg:gap-6 shadow-xl rounded-lg"
+                class="flex flex-col items-center gap-4 md:flex-row lg:gap-6 shadow-xl rounded-lg p-4"
               >
                 <AwesomeLink
                   :to="article._path"
