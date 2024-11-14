@@ -68,11 +68,15 @@ const query: QueryBuilderParams = { path: '/feel' }
       <ContentList path="/feel">
         <template #default="{ list }">
           <div class="grid my-10 grid-cols-1 gap-x-14 gap-y-10 md:grid-cols-2">
-            <article v-for="feel in list" :key="feel._path">
+            <article
+              v-for="feel in list"
+              :key="feel._path"
+              class="dark:bg-gray-600 p-4 rounded-md"
+            >
               <div class="leading-none mb-2 md:mb-2">
                 <AwesomeLink
                   :to="feel._path"
-                  class="uppercase text-slate-500 text-[10px] hover:text-sky-600 dark:hover:text-sky-500"
+                  class="uppercase text-slate-500 text-[10px] hover:text-sky-600 dark:hover:text-sky-50 dark:text-slate-200"
                   >My story</AwesomeLink
                 >
               </div>
@@ -100,7 +104,7 @@ const query: QueryBuilderParams = { path: '/feel' }
                   >
                 </div>
                 <div
-                  class="text-slate-500 mt-2 text-sm line-clamp-3 leading-normal"
+                  class="text-slate-500 mt-2 text-sm line-clamp-3 leading-normal dark:text-slate-300"
                 >
                   {{ feel.description }}
                 </div>

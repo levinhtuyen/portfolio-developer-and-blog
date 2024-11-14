@@ -12,7 +12,10 @@ const props = defineProps({
   <ContentDoc>
     <template #default="{ doc }">
       <LayoutPageHeader class="max-w-3xl px-4 mx-auto">
-        <LayoutPageTitle :text="doc.title" />
+        <LayoutPageTitle
+          class="dark:text-slate-100 text-slate-400"
+          :text="doc.title"
+        />
       </LayoutPageHeader>
       <div class="max-w-3xl px-4 mx-auto my-10">
         <img

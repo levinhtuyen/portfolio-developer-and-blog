@@ -95,7 +95,9 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                   </span>
                 </span>
               </div>
-              <div class="grid-cols-1 md:grid-cols-2 grid md:flex">
+              <div
+                class="grid-cols-1 md:grid-cols-2 grid md:flex"
+              >
                 <div
                   class="lg:w-1/3 w-full text-base text-slate-600 md:text-xl pt-5 dark:text-slate-400 col-span-1"
                 >
@@ -652,7 +654,7 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
             >
               <div class="relative h-[590px] w-[603px]">
                 <div
-                  class="from-accent-400/20 via-accent-400/0 absolute top-20 right-0 h-[520px] w-[416px] rounded-full bg-gradient-to-t dark:from-accent-600/10 dark:via-accent-600/0"
+                  class="from-accent-400/20 via-accent-400/0 absolute top-20 right-0 h-[520px] w-[416px] rounded-full bg-gradient-to-t dark:from-accent-600/10 dark:via-accent-600/0 dark:bg-slate-400"
                 >
                   <div
                     class="absolute right-0 bottom-0 overflow-hidden hidden lg:block"
@@ -1198,7 +1200,7 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
       <section class="text-gray-600 body-font">
         <div class="pb-4 md:pb-12">
           <h2
-            class="text-center text-2xl font-bold text-foreground md:text-4xl lg:text-6xl"
+            class="text-center text-2xl font-bold text-foreground md:text-4xl lg:text-6xl dark:text-slate-300"
           >
             Projects
           </h2>
