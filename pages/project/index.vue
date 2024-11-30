@@ -56,7 +56,7 @@ useHead({
   ],
 })
 // query
-// const query: QueryBuilderParams = { path: '/post' }
+const query: QueryBuilderParams = { path: '/post' }
 </script>
 
 <template>

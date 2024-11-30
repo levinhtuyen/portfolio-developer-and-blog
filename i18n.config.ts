@@ -1,15 +1,11 @@
+import EN from './lang/en.json'
+import VI from './lang/vn.json'
 export default defineI18nConfig(() => ({
   legacy: false,
   locale: 'vi',
   messages: {
-    en: {
-      langauge: 'Language',
-      myStory: 'My story',
-    },
-    vi: {
-      langauge: 'Ngôn ngữ',
-      myStory: 'Chuyện của tôi',
-    },
+    en: EN,
+    vi: VI,
     in: {
       langauge: 'Language',
       myStory: 'My story',

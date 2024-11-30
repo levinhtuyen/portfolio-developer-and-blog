@@ -688,7 +688,7 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
           <h2
             class="text-center text-2xl font-bold text-foreground md:text-4xl lg:text-6xl"
           >
-            Journey
+            {{ $t('journey') }}
           </h2>
         </div>
         <div>
@@ -1202,7 +1202,7 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
           <h2
             class="text-center text-2xl font-bold text-foreground md:text-4xl lg:text-6xl dark:text-slate-300"
           >
-            Projects
+            {{ $t('projects') }}
           </h2>
         </div>
         <div class="container px-5 py-8 mx-auto">

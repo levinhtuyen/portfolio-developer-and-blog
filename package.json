@@ -48,6 +48,7 @@
     "@nuxtjs/tailwindcss": "^6.8.1",
     "@pinia/nuxt": "^0.5.1",
     "@vueuse/core": "^10.5.0",
+    "pdfjs-dist": "2.0.943",
     "@vueuse/nuxt": "^10.5.0",
     "nuxt-headlessui": "^1.1.4",
     "nuxt-icon": "^0.6.1",

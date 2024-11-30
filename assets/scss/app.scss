@@ -1,8 +1,14 @@
 // vars
-@import 'variables';
+// @import '@/assets/scss/_variables.scss';
 // components
 // component::scrollbar
 // components
+// variables
+:root {
+  // layouts > page > content
+  --layout-page-content-min-height: calc(100vh - 120px);
+}
+
 ::-webkit-scrollbar {
   width: 16px;
 }
@@ -46,7 +52,10 @@ html.dark {
   height: 300px;
   perspective: 1000px;
 }
-
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
 .card {
   height: 100%;
   border-radius: 50px;

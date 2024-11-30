@@ -1,4 +1,7 @@
 {
-  "langauge": "Ngôn ngữ",
-  "myStory": "My story"
+  "language": "Language",
+  "myStory": "My story",
+  "myCV": "My CV",
+  "journey": "Journey",
+  "projects": "Projects"
 }

@@ -115,6 +115,18 @@ watch(route.name, () => {
                   <NuxtLink
                     aria-current="page"
                     tag="a"
+                    to="/mycv"
+                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
+                    class="router-link-active router-link-exact-active group text-sm hover:text-sky-600 flex items-center transition-all duration-200 dark:hover:text-sky-300 font-semibold"
+                    :class="isActive === 'mycv' ? 'text-sky-600' : ''"
+                  >
+                    <slot> {{ $t('myCV') }}</slot>
+                  </NuxtLink>
+                </li>
+                <li class="ml-8">
+                  <NuxtLink
+                    aria-current="page"
+                    tag="a"
                     to="/feel"
                     alt="Lê Vĩnh Tuyến - Blog's của tôi"
                     class="router-link-active router-link-exact-active group text-sm hover:text-sky-600 flex items-center transition-all duration-200 dark:hover:text-sky-300 font-semibold"
@@ -146,7 +158,7 @@ watch(route.name, () => {
               </ul>
             </div>
             <div
-              class="hidden md:block h-6 border-l border-gray-300 ml-4 mr-4  dark:border-slate-700/80"
+              class="hidden md:block h-6 border-l border-gray-300 ml-4 mr-4 dark:border-slate-700/80"
             ></div>
             <LayoutPageNavbarDropdownModeThemeSwitcher />
             <div
@@ -207,11 +219,26 @@ watch(route.name, () => {
           <!--[-->
           <li class="border-t border-t-gray-100 dark:border-t-slate-800">
             <a
+              href="/mycv"
+              alt="Lê Vĩnh Tuyến - Blog's của tôi"
+              name="Lê Vĩnh Tuyến - Blog's của tôi"
+              class="block py-3 text-sm"
+              :class="isActive === 'mycv' ? 'text-sky-600' : ''"
+              >{{ $t('myCV') }}</a
+            >
+          </li>
+          <li class="border-t border-t-gray-100 dark:border-t-slate-800">
+            <a
               href="/feel"
               alt="Lê Vĩnh Tuyến - Blog's của tôi"
               name="Lê Vĩnh Tuyến - Blog's của tôi"
               class="block py-3 text-sm"
-              >My story</a
+              :class="
+                isActive === 'feel' || isActive === 'feel-slug'
+                  ? 'text-sky-600'
+                  : ''
+              "
+              >{{ $t('myStory') }}</a
             >
           </li>
           <li class="border-t border-t-gray-100 dark:border-t-slate-800">
@@ -219,6 +246,11 @@ watch(route.name, () => {
               href="/post"
               alt="Lê Vĩnh Tuyến - Blog's của tôi"
               name="Lê Vĩnh Tuyến - Blog's của tôi"
+              :class="
+                isActive === 'post' || isActive === 'post-slug'
+                  ? 'text-sky-600'
+                  : ''
+              "
               class="block py-3 text-sm"
               >Blog</a
             >
