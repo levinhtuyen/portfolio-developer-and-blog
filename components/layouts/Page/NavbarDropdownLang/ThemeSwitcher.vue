@@ -30,10 +30,10 @@ const availableThemes = reactive([
       <HeadlessListboxButton type="template">
         <AwesomeLink class="dark:text-gray-400 text-gray-600">
           <span v-if="locale === 'vi'" class="flex justify-center items-center">
-            <img width="25" height="25" src="/lang/vn.png" />
+            <img width="25" height="25" src="/lang/vn.png" alt="lang-vi" />
           </span>
           <span v-if="locale === 'en'" class="justify-center items-center flex">
-            <img width="25" height="25" src="/lang/us.png" />
+            <img width="25" height="25" src="/lang/us.png" alt="lang-us" />
           </span>
         </AwesomeLink>
       </HeadlessListboxButton>
@@ -56,12 +56,14 @@ const availableThemes = reactive([
               width="35"
               height="35"
               src="/lang/vn.png"
+              alt="lang-vi"
             />
             <img
               v-else-if="lang.key === 'en'"
               width="35"
               height="35"
               src="/lang/us.png"
+              alt="lang-us"
             />
           </span>
           {{ lang.text }}
