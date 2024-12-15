@@ -20,9 +20,9 @@ export default defineNuxtSchema({
         footer: {
           year: 2023,
         },
-        welcome: {
+        home: {
           title: `Lê Vĩnh Tuyến - Blog's của tôi`,
-          disableInfoReplaceIndexInWelcomePage: true,
+          disableInfoReplaceIndexInHomePage: true,
         },
       },
       author: {

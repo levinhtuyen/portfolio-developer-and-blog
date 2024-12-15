@@ -24,6 +24,7 @@
       "tuyen le blog",
       "portfolio developer",
       "portfolio",
+      "my portfolio",
       "portfolio tuyen",
       "tuyen portfolio",
       "tuyenle portfolio"
@@ -50,7 +51,7 @@
       "https://en.wikipedia.org/wiki/Boarding_house"
     ],
     "logo": "https://tuyenleblog.tech/logo.png",
-    "email": "tuyenleblog@gmail.com",
+    "email": "levinhtuyen210@gmail.com",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Thủ Đức",

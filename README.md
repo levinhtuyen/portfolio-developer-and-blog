@@ -1,13 +1,14 @@
-# The Developer Portfolio and Blog start
 
-- ✨&nbsp; [Link demo](https://tuyenleblog.tech/)
-- 📦&nbsp; [Create avatar 3D](https://avaturn.me/)
-- 👀&nbsp; [Source](https://github.com/levinhtuyen/portfolio-developer-and-blog)
-- 📚&nbsp; [Structure: Use Nuxt 3 Awesome Starter V2](https://githubblitz.com/viandwi24/nuxt3-awesome-starter)
-> <a href="https://www.buymeacoffee.com/portfoliodeveloper"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=portfoliodeveloper&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
+
+# Structure Nuxt 3 Awesome Starter
+
+- 👀&nbsp; [Structure: Use Nuxt 3 Awesome Starter V2](https://githubblitz.com/viandwi24/nuxt3-awesome-starter)  
+  
+
 ## Preview
 
 <img src="public/logo.png" alt="Preview" title="Desktop Preview">
+
 
 ## Performance
 
@@ -16,21 +17,17 @@
 
 ## Features
 
-- [x] 📚 [Nuxt Layer Support](https://nuxt.com/docs/getting-started/layers#layers)
-- [x] 💨 [Tailwind CSS v3](https://tailwindcss.com/)
-- [x] ✨ [Headless UI](https://headlessui.dev/)
-- [x] 🔔 [Nuxt Icon](https://icones.js.org/)
-- [x] 🛹 [State & Store Management (Pinia)](https://pinia.vuejs.org/)
-- [x] 📦 [Vue Composition Collection (Vueuse)](https://vueuse.org/)
-- [x] 🪝 Built-in Awesome Component & Layout
-- [x] 🌙 [Theme Manager (Color Mode)](https://color-mode.nuxtjs.org/)
-- [x] Configurable Theme (Easy to change)
-  - [x] Primary Colors
-  - [x] Font
-- [x] SEO Optimization, High Performance
-- [x] Blog
-- [x] My story
-- [x] use data from .md (app/content/...)
+- [X] 📚 [Nuxt Layer Support](https://nuxt.com/docs/getting-started/layers#layers)
+- [X] 💨 [Tailwind CSS v3](https://tailwindcss.com/)
+- [X] ✨ [Headless UI](https://headlessui.dev/)
+- [X] 🔔 [Nuxt Icon](https://icones.js.org/)
+- [X] 🛹 [State & Store Management (Pinia)](https://pinia.vuejs.org/)
+- [X] 📦 [Vue Composition Collection (Vueuse)](https://vueuse.org/)
+- [X] 🪝 Built-in Awesome Component & Layout
+- [X] 🌙 [Theme Manager (Color Mode)](https://color-mode.nuxtjs.org/)
+- [X] Configurable Theme (Easy to change)
+  - [X] Primary Colors
+  - [X] Font
 
 ## Getting Started
 
@@ -38,7 +35,7 @@
 
 - clone this repository
   ```bash
-  git clone https://github.com/levinhtuyen/portfolio-developer-and-blog
+  git clone https://github.com/levinhtuyen/myblog
   ```
 - install dependencies
   ```bash
@@ -52,5 +49,3 @@
   ```bash
   yarn build
   ```
-
-

@@ -1,7 +1,13 @@
 <template>
   <div class="fixed bottom-12 right-10 bg-white rounded-full">
     <button id="topButton" name="button back to top" @click="scrolltoTop">
-      <img width="50" height="50" src="/images/toTop.png" alt="back to top" />
+      <img
+        width="50"
+        height="50"
+        class="md:w-[50px] md:h-[50px] w-9 h-9"
+        src="/images/toTop.png"
+        alt="back to top"
+      />
     </button>
   </div>
 </template>

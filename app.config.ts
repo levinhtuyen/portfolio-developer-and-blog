@@ -35,10 +35,10 @@ export interface NuxtAwesomeAppConfig {
       /** footer year */
       year?: number
     }
-    /** welcome component page */
-    welcome?: {
+    /** home component page */
+    home?: {
       title?: string
-      disableInfoReplaceIndexInWelcomePage?: boolean
+      disableInfoReplaceIndexInHomePage?: boolean
       primaryActionButton?: {
         title?: string
         to?: RouteLocationRaw | ((nuxt: NuxtApp) => RouteLocationRaw)
@@ -66,7 +66,7 @@ export interface NuxtAwesomeAppConfig {
   }
 
   /** author config */
-  disableInfoReplaceIndexInWelcomePage?: boolean
+  disableInfoReplaceIndexInHomePage?: boolean
 }
 
 declare module '@nuxt/schema' {
@@ -93,9 +93,9 @@ export default defineAppConfig({
       footer: {
         year: new Date().getFullYear(),
       },
-      welcome: {
+      home: {
         title: `Lê Vĩnh Tuyến - Blog's của tôi`,
-        disableInfoReplaceIndexInWelcomePage: true,
+        disableInfoReplaceIndexInHomePage: true,
         primaryActionButton: {
           title: 'Nuxt 3',
           to: 'https://nuxt.com/',
@@ -113,7 +113,7 @@ export default defineAppConfig({
         website: 'https://tuyenleblog.tech',
       },
     },
-    disableInfoReplaceIndexInWelcomePage: false,
+    disableInfoReplaceIndexInHomePage: false,
   } as NuxtAwesomeAppConfig,
   nuxtIcon: {
     aliases: {},

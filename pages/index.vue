@@ -7,5 +7,5 @@ useMetaSeoIndex()
 </script>
 
 <template>
-  <AwesomeWelcome :with-alert="true" />
+  <AwesomeHome :with-alert="true" />
 </template>

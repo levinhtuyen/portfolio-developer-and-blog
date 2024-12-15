@@ -1,21 +1,5 @@
 <template>
-  <svg
-    :width="props.size"
-    :height="props.size"
-    viewBox="0 0 24 24"
-    :aria-label="props.label"
-    :role="props.label ? 'img' : 'presentation'"
-    :class="[
-      'inline-block align-middle',
-      props.color ? `text-${props.color}` : '',
-      props.className,
-    ]"
-    fill="none"
-    stroke="currentColor"
-    stroke-width="2"
-    stroke-linecap="round"
-    stroke-linejoin="round"
-  >
+  <svg viewBox="0 0 24 24" :aria-label="props.label" :class="props.className">
     <!-- Slot for custom paths -->
     <slot />
   </svg>
@@ -24,13 +8,13 @@
 <script setup lang="ts">
 interface IconProps {
   // Icon size in pixels
-  size?: number | string;
+  size?: number | string
   // Tailwind color class (e.g. 'blue-500')
-  color?: string;
+  color?: string
   // Additional classes
-  className?: string;
+  className?: string
   // Accessibility label
-  label?: string;
+  label?: string
 }
 
 const props = withDefaults(defineProps<IconProps>(), {
