@@ -28,7 +28,7 @@
     "tsconfig.json"
   ],
   "scripts": {
-    "build": "nuxt build ./app --preset=vercel_edge",
+    "build": "nuxt build ./output --preset=vercel_edge",
     "dev": "nuxt dev ./app --no-clear",
     "generate": "nuxt generate ./app",
     "preview": "nuxt preview ./app",
