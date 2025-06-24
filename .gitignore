@@ -4,7 +4,7 @@ node_modules
 .nitro
 .cache
 .output
-.env
+
 dist
 .DS_Store
 run.md
