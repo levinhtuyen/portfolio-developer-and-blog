@@ -1,0 +1,1 @@
+import{_ as e,o,c,G as s}from"./entry.7f708710.js";const n={},a={class:"max-w-6xl m-auto pt-[24px] lg:pt-[64px]",style:{"min-height":"calc(100vh - 120px)"}};function _(t,r){return o(),c("div",a,[s(t.$slots,"default")])}const p=e(n,[["render",_]]);export{p as default};

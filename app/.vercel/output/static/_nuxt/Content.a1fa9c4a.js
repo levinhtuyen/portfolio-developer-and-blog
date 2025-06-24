@@ -1,1 +1,0 @@
-import{_ as e,o,c,I as s}from"./entry.ecdf883a.js";const n={},a={class:"max-w-6xl m-auto pt-[24px] lg:pt-[64px]",style:{"min-height":"calc(100vh - 120px)"}};function _(t,r){return o(),c("div",a,[s(t.$slots,"default")])}const p=e(n,[["render",_]]);export{p as default};

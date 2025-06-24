@@ -1,0 +1,1 @@
+import{e as a,o as s,c as o,G as r,a as n,t as l}from"./entry.7f708710.js";const c={class:"text-xs font-bold text-center text-gray-800 dark:text-gray-400"},i=a({__name:"HeaderTitle",props:{text:{type:String,default:""}},setup(e){return(t,d)=>(s(),o("div",c,[r(t.$slots,"default",{},()=>[n("span",null,l(e.text),1)])]))}});export{i as default};

@@ -1,1 +1,0 @@
-import{_ as o,o as t,c as s,I as c}from"./entry.ecdf883a.js";const n={},_={class:"mb-4"};function r(e,a){return t(),s("div",_,[c(e.$slots,"default")])}const d=o(n,[["render",r]]);export{d as default};
