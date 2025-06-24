@@ -1,0 +1,1 @@
+import{_ as s,o as t,c as o,G as c}from"./entry.966217b1.js";const r={},n={class:"px-4 py-2"};function a(e,_){return t(),o("div",n,[c(e.$slots,"default")])}const d=s(r,[["render",a]]);export{d as default};

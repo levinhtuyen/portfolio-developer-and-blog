@@ -1,0 +1,1 @@
+import{_ as t,o,c,G as n}from"./entry.966217b1.js";const s={},r={class:"card-content px-6 py-6 relative"};function a(e,_){return o(),c("div",r,[n(e.$slots,"default")])}const d=t(s,[["render",a]]);export{d as default};
