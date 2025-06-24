@@ -1,0 +1,56 @@
+{
+  "version": 3,
+  "overrides": {},
+  "routes": [
+    {
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable"
+      },
+      "src": "/_nuxt/builds/meta/(.*)"
+    },
+    {
+      "headers": {
+        "cache-control": "public, max-age=1, immutable"
+      },
+      "src": "/_nuxt/builds/(.*)"
+    },
+    {
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable"
+      },
+      "src": "/_nuxt/(.*)"
+    },
+    {
+      "src": "/_nuxt/builds/meta(.*)",
+      "headers": {
+        "cache-control": "public,max-age=31536000,immutable"
+      },
+      "continue": true
+    },
+    {
+      "src": "/_nuxt/builds(.*)",
+      "headers": {
+        "cache-control": "public,max-age=31536000,immutable"
+      },
+      "continue": true
+    },
+    {
+      "src": "/_nuxt(.*)",
+      "headers": {
+        "cache-control": "public,max-age=31536000,immutable"
+      },
+      "continue": true
+    },
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/__nuxt_error",
+      "dest": "/__nitro"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/__nitro"
+    }
+  ]
+}

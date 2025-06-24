@@ -1,0 +1,16 @@
+{
+  "date": "2025-06-24T04:35:42.711Z",
+  "preset": "vercel-edge",
+  "framework": {
+    "name": "nitro",
+    "version": ""
+  },
+  "versions": {
+    "nitro": "2.10.4"
+  },
+  "commands": {
+    "preview": "",
+    "deploy": ""
+  },
+  "config": {}
+}
